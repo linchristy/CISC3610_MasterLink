@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Form</title>
+        <h2>Simple Form</h2>
+        <p>Author: Christy Lin</p>
+        <script src="simpleform.js"></script>
+    </head>
+    <body>
+        <form action="/action_page.php" method="get">
+            <label for="title">Title:</label><br/>
+            <input type="text" id="title" name="title" size="45" maxlength="40" onInput="saveTitle(this.value)"><br/>
+            <label for="notes">Notes:</label><br/>
+            <textarea id="field" name="notes_area" rows="10" column="80" style="width: 320px; height: 150px;" onInput="saveNote(this.value)"></textarea>
+        </form>
+        <button type="clearbtn" onclick="clearText()">Clear</button><br/><br/>
+        <a href ="https://linchristy.github.io/CISC3610_MasterLink/">Return to main page</a>
+    </body>
+</html>
