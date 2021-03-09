@@ -22,7 +22,7 @@ function clearText(){
 
     document.getElementById("title").value="";
     document.getElementById("field").value="";
-    // clear everything storaged in local storage
+    // clear everything stored in local storage
     localStorage.clear();
 }
 
