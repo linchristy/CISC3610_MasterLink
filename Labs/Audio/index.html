@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio Lab</title>
+        <center><h1>Audio Lab</h1></center>
+        <p align="center">Author: Christy Lin</p>
+    </head>
+    <body>
+        <audio id="rain-audio">
+            <source src="sounds/rain.ogg" type="audio/ogg">
+            <source src="sounds/rain.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="storm-hurricane-audio">
+            <source src="sounds/storm-huricane.ogg" type="audio/ogg">
+            <source src="sounds/storm-huricane.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="water-rain-audio">
+            <source src="sounds/water-rain.ogg" type="audio/ogg">
+            <source src="sounds/water-rain.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="storm-thunder-audio">
+            <source src="sounds/storm-thunder.ogg" type="audio/ogg">
+            <source src="sounds/storm-thunder.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="wind-howl-audio">
+            <source src="sounds/wind-howl.ogg" type="audio/ogg">
+            <source src="sounds/wind-howl.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="container" style="text-align: center;">
+            <h2>Weather Audio Player</h2>
+            <button onclick="playRain()" type="button">Play Rain</button>
+            <button onclick="pauseRain()" type="button">Pause Rain</button><br/>
+            <button onclick="playStormHurricane()" type="button">Play Storm Hurricane</button>
+            <button onclick="pauseStormHurricane()" type="button">Pause Storm Hurricane</button><br/>
+            <button onclick="playWaterRain()" type="button">Play Water Rain</button>
+            <button onclick="pauseWaterRain()" type="button">Pause Water Rain</button><br/>
+            <button onclick="playStormThunder()" type="button">Play Storm Thunder</button>
+            <button onclick="pauseStormThunder()" type="button">Pause Storm Thunder</button><br/>
+            <button onclick="playWindHowl()" type="button">Play Wind Howl</button>
+            <button onclick="pauseWindHowl()" type="button">Pause Wind Howl</button><br/><br/><br/>
+            <a href="https://linchristy.github.io/CISC3610_MasterLink/">Return to main page.</a><br/>
+        </div>
+        
+        <script src="sounds.js"></script>   
+    </body>
+    
+
+</html>
